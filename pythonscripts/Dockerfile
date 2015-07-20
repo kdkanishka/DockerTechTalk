@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu
 MAINTAINER CSL R&D <kanishka.dilshan@cslworld.com>
 VOLUME /var/log
 RUN apt-get update
