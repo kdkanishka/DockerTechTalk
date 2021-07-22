@@ -1,6 +1,6 @@
-FROM ubuntu
-MAINTAINER CSL R&D <kanishka.dilshan@cslworld.com>
-VOLUME /var/log
+FROM ubuntu:18.04
+MAINTAINER CSL R&D <kanishka@creativesoftware.com>
+VOLUME /tmp
 RUN apt-get update
 RUN apt-get install python -y
 RUN apt-get install python-pip -y
